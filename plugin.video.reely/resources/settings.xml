@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<settings>
+ <category label="Catalog">
+  <setting id="tmdb_key" type="text" option="hidden" label="Optional TMDB API key (blank uses Reely)" default=""/>
+ </category>
+ <category label="Playback">
+  <setting id="use_reely" type="bool" label="Use Reely website playback" default="true"/>
+  <setting id="movie_template" type="text" label="Movie direct-stream URL template: {id}" default=""/>
+  <setting id="tv_template" type="text" label="TV direct-stream URL template: {id}, {s}, {e}" default=""/>
+  <setting id="playlist" type="text" label="M3U playlist URL or local path" default=""/>
+ </category>
+</settings>

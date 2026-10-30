@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="repository.reely" name="Reely Local Repository" version="0.2.0" provider-name="Local adaptation">
+ <requires><import addon="xbmc.python" version="3.0.0"/></requires>
+ <extension point="xbmc.service" library="service.py"/>
+ <extension point="xbmc.addon.repository" name="Reely Local Repository">
+  <dir>
+   <info>http://127.0.0.1:18764/addons.xml</info>
+   <checksum>http://127.0.0.1:18764/addons.xml.md5</checksum>
+   <datadir>http://127.0.0.1:18764/</datadir>
+  </dir>
+ </extension>
+ <extension point="xbmc.addon.metadata">
+  <summary lang="en_GB">Bundled local repository for Reely for Kodi</summary>
+  <description lang="en_GB">Offline snapshot containing Reely for Kodi. Updates require a new repository ZIP; no public update server is configured.</description>
+  <platform>all</platform><license>MIT</license>
+ </extension>
+</addon>

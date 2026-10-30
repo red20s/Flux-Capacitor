@@ -1,0 +1,18 @@
+Reely for Kodi 0.2.0 validation — October 30, 2026
+
+Validated on Fire TV running Kodi 21.3.
+Live website catalog: 20 movies plus Next page; 9 TV seasons; 10 episodes.
+No user TMDB key used. Catalog requests executed on the Fire TV.
+
+Playback source: Reely live ticket/session/resolve flow, movie Sintel (TMDB 45745).
+Kodi reported Player.HasVideo=true and Player.Playing=true.
+Video: H.264, 1920 x 1080. Audio: AAC stereo.
+Duration: 14:49. Playback advanced to 00:19 at normal speed.
+Test playback stopped afterward.
+
+Nine local tests passed, including ticket/session resolution, preserving signed
+stream URLs, account-gate handling, and website catalog selection without a key.
+
+Limits: verified one movie, not every title or TV stream. No account sign-in,
+browser iframe fallback, or subtitle integration. Reely API availability may
+change. The bundled repository remains a local snapshot, not an online update feed.

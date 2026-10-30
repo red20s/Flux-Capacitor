@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addons>
+<addon id="plugin.video.reely" name="Reely for Kodi" version="0.2.0" provider-name="Local adaptation">
+ <requires><import addon="xbmc.python" version="3.0.0" /></requires>
+ <extension point="xbmc.python.pluginsource" library="addon.py"><provides>video</provides></extension>
+ <extension point="xbmc.addon.metadata">
+  <summary lang="en_GB">Movie browsing and native Kodi playback</summary>
+  <description lang="en_GB">Browse Reely and play available native streams through its live service. Also supports direct-stream templates and M3U playlists. Account sign-in and browser-only fallback players are not supported.</description>
+  <platform>all</platform><license>MIT</license>
+ </extension>
+</addon>
+</addons>
