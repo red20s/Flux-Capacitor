@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+.env
+.env.*
+settings.xml
+!plugin.video.reely/resources/settings.xml
+*.log
